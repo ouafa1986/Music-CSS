@@ -1,0 +1,36 @@
+#ligne {
+    color: rebeccapurple;
+    widht:100%;
+}
+.composer{
+    color: darkblue;
+    font-size: 100%;
+    font-family: Georgia;
+
+}
+.descrip{
+    color: black;
+    font-size: 200%;
+    text-align: justify;
+    font-family: Times;
+    position: relative;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.square {
+    padding: 30px;
+    width: 35%;
+    display: inline-block;
+    height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.square:hover {
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .5); */
+    outline: 6px solid rgb(0, 0, 0);
+    transition: all .3s;
+    outline-offset: -6px;
+    
+}
